@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onclick Sự kiện - Lưu thông tin JSON vào Bảng</title>
+  <script src="js/script.js" defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+  <h2>Nhập Thông Tin Người Dùng</h2>
+
+  <!-- Form nhập liệu -->
+  <form id="userForm">
+    <label for="nameInput">Tên của bạn:</label>
+    <input type="text" id="nameInput" placeholder="Nhập tên của bạn"><br><br>
+
+    <label for="addressInput">Địa chỉ của bạn:</label>
+    <input type="text" id="addressInput" placeholder="Nhập địa chỉ của bạn"><br><br>
+
+    <button type="button" id="saveButton">Lưu Thông Tin</button>
+  </form>
+
+  <h2>Thông tin người dùng đã nhập</h2>
+
+  <!-- Bảng để hiển thị thông tin người dùng -->
+  <table border="1" id="userTable">
+    <thead>
+      <tr>
+        <th>STT</th>
+        <th>Tên Người Dùng</th>
+        <th>Địa Chỉ</th>
+        <th>Dữ Liệu JSON</th>
+        <th>Xóa</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Hàng sẽ được thêm vào đây -->
+    </tbody>
+  </table>
+
+  <!-- Input để nhập index người dùng cần xóa -->
+  <h3>Xóa Người Dùng</h3>
+  <label for="deleteIndex">Nhập STT cần xóa:</label>
+  <input type="number" id="deleteIndex" placeholder="Nhập STT"><br><br>
+  <button type="button" id="deleteButton">Xóa Người Dùng</button>
+
+</body>
+</html>
