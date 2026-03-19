@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../HTML"
+		},
+		{
+			"path": "../../Năm 1 - uit"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../IS207"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WebDemo"
+	}
+}
